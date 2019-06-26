@@ -1,0 +1,440 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Header*/
+.header-box{
+	height: 32px;
+	width: 100%;
+	background-color: #ce1212;
+}
+.logo{
+	width: auto;
+	height: 32px;
+	object-fit: cover;
+}
+.navbar-nav a{
+	font-family: 'Product Sans';
+	width: auto;
+	color: #807E7E !important;
+	font-size: 16px;
+	line-height: 26px;
+	word-spacing: .2pt;
+	font-weight: 600;
+}
+.nav-link.active{
+	color: #F01111 !important;
+	border-bottom: solid 2px #F01111;
+}
+.nav-link{
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+}
+.nav-shadow{
+	border-bottom: solid 1px #e5e5e5;
+    box-shadow: 3px 0 8px 0 rgba(34,34,34,0.2);
+}
+
+/*Banner*/
+.banner-header{
+	width: 100%;
+	height: 512px;
+	background-color: #454545;
+}
+.logo-banner-header{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	/*margin-top: 40px;*/
+}
+.title-banner-header{
+	font-family: 'Product Sans';
+	color: #ffffff;
+	font-size: 34px;
+	line-height: 44px;
+	word-spacing: .2pt;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.subtitle-banner-header{
+	font-family: 'Roboto';
+	color: #ffffff;
+	font-size: 36px;
+	line-height: 46px;
+	word-spacing: .2pt;
+	font-weight: bold;
+}
+.btn-join-banner{
+	font-family: 'Roboto';
+    padding: 12px 80px;
+    background-color: #ce1212;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 34px;
+    word-spacing: .2pt;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+/*Tentang*/
+.title-tentang{
+	font-family: 'Roboto';
+    font-size: 34px;
+    line-height: 44px;
+    word-spacing: .2pt;
+    color: #000000;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+.subtitle-tentang{
+	font-family: 'Roboto';
+	font-size: 36px;
+	line-height: 46px;
+	word-spacing: .2pt;
+	color: #ce1212;
+	border-bottom: solid 2px #ce1212;
+	width: max-content;
+	margin: auto;
+	padding-bottom: 14px;
+}
+.mockup-ipad-tentang{
+	z-index: 2;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 429px;
+	margin-top: 24px;
+	text-align: center;
+}
+.content-mockup-ipad-tentang{
+	z-index: 1;
+	width: 614px;
+	height: 356px;
+	object-fit: cover;
+	margin-top: 32px;
+	border-radius: 5px;
+}
+.content-tentang{
+	font-family: 'Roboto';
+	width: 80%;
+	margin: 10px auto 16px auto;
+	font-size: 16px;
+	line-height: 26px;
+	word-spacing: .2pt;
+	color: #000000;
+}
+.kelebihan-tentang{
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin-bottom: 36px;
+}
+.title-kelebihan-tentang{
+	font-family: 'Product Sans';
+	font-size: 24px;
+	line-height: 34px;
+	word-spacing: .2pt;
+	color: #000000;
+}
+.content-kelebihan-tentang{
+	font-family: 'Product Sans';
+	font-size: 16px;
+	line-height: 26px;
+	word-spacing: .2pt;
+	color: #878787;
+}
+
+/*Aktivitas*/
+.aktivitas{
+	background-color: #E0E0E0;
+	padding: 80px 0;
+}
+.line-title-aktivitas{
+	width: 7px;
+	height: 32px;
+	background-color: #CE1212;
+	margin-right: 15px;
+}
+.title-aktivitas{
+	font-family: 'Product Sans';
+	margin: 0px;
+	font-size: 21px;
+	line-height: 31px;
+	word-spacing: .2pt;
+	color: #000000;
+}
+.img-aktivitas{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	margin-top: 18px;
+}
+.box-content-aktivitas{
+	padding: 35px 45px;
+	background-color: #ffffff;
+	margin: 0 15px;
+}
+.title-content-aktivitas{
+	font-family: 'Product Sans';
+	font-size: 21px;
+	line-height: 31px;
+	word-spacing: .2pt;
+	color: #ABABAB;
+	margin-bottom: 20px;
+}
+.text-content-aktivitas{
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 26px;
+	word-spacing: .2pt;
+	color: #ABABAB;
+}
+.view-more-aktivitas{
+	font-family: 'Product Sans';
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 31px;
+	word-spacing: .2pt;
+	color: #ED1B24;
+	margin-top: 43px;
+}
+.view-more-aktivitas.no-margin{
+	margin: 0;
+}
+
+/*Berita Terbaru*/
+.header-title-berita{
+	background-color: #ED1B24;
+	height: 50px;
+	padding: 0 14px;
+}
+.title-berita{
+	font-family: 'Product Sans';
+	margin-bottom: 0px;
+	font-size: 21px;
+	line-height: 31px;
+	word-spacing: .2pt;
+	color: #FFFFFF;
+}
+.list-berita{
+	height: 150px;
+	padding: 20px 30px;
+}
+.list-berita.list-light{
+	background-color: #FFFFFF;
+}
+.list-berita.list-gray{
+	background-color: #EFEFEF;
+}
+.list-berita.list-auto{
+	height: auto !important;
+}
+.dot-berita{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+}
+.date-berita{
+	font-family: 'Product Sans';
+	line-height: 12px;
+	color: #B2B2B2;
+	margin-left: 17px;
+}
+.dot-berita.dot-red{
+	background-color: #ED1B24;
+}
+.dot-berita.dot-yellow{
+	background-color: #ED801B;
+}
+.dot-berita.dot-green{
+	background-color: #2ECD51;
+}
+
+/*Profile*/
+.box-profile{
+	padding: 25px 0;
+	width: 100%;
+	margin: 0;
+}
+.img-profile{
+	width: 100%;
+	height: 495px;
+	object-fit: cover;
+}
+.box-content-profile{
+	padding: 0 15px;
+	margin: auto;
+}
+.list-content-profile{
+	object-fit: cover;
+	padding: 8px 0;
+}
+.icon-content-profile{
+	height: 24px;
+	width: 24px;
+}
+.text-content-profile{
+	margin-bottom: 0px;
+	margin-left: 16px;
+	color: #878787;
+}
+
+/*Bagian bawah*/
+.box-bottom{
+	height: 666px;
+	background-color: #C4C4C4;
+	margin-bottom: 50px;
+}
+.box-footer{
+	height: 124px;
+	background-color: #C4C4C4;
+}
+
+/* Prestasi Kami */
+.line-title-prestasi-kami{
+	width: 8px;
+    height: 46px;
+	background: #CE1212;
+}
+.title-prestasi-kami{
+	font-family: 'Product Sans';
+	margin: 0 0 0 16px;
+	font-size: 24px;
+    line-height: 34px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+.img-list-prestasi-kami{
+	width: 100%;
+	height: 360px;
+	object-fit: cover;
+}
+.title-list-prestasi-kami{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+.publish-list-prestasi-kami{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #A09696;
+}
+.content-list-prestasi-kami{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #807E7E;
+}
+.readmore-list-prestasi-kami{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    color: #D20B12;
+}
+.nav-dot-prestasi-kami{
+	cursor: pointer;
+	font-family: 'Product Sans';
+    font-size: 14px;
+    line-height: 49px;
+    width: 26px;
+    height: 26px;
+    background: #C4C4C4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.nav-dot-prestasi-kami:hover,
+.nav-dot-prestasi-kami.active{
+	background: #CE1212;
+}
+.nav-until-prestasi-kami{
+	color: #C4C4C4;
+	font-size: 24px;
+}
+.nav-next-prestasi-kami{
+	cursor: pointer;
+	background: #C4C4C4;
+    font-family: 'Product Sans';
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 12px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.nav-next-prestasi-kami:hover{
+	background: #CE1212;
+}
+
+/* Deskripsi Prestasi Kami */
+.title-desc-prestasi-kami{
+	font-family: 'Product Sans';
+	font-size: 36px;
+	line-height: 46px;
+	display: flex;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+.publish-desc-prestasi-kami{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #A09696;
+}
+.content-desc-prestasi-kami{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #807E7E;
+}
+.img-desc-prestasi-kami{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+.ketimg-desc-prestasi-kami{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+	/* identical to box height */
+	color: #898989;
+
+}
+.content-desc-prestasi-kami{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 46px;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 26px;
+	color: #807E7E;
+}

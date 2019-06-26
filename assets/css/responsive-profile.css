@@ -1,0 +1,581 @@
+/* width 1980px */
+@media only screen and (min-width: 1980px) {
+	/*Header*/
+    .header-box{
+    	height: 60px;
+    	width: 100%;
+    }
+    .logo{
+    	width: auto;
+    	height: 60px;
+    	object-fit: cover;
+    }
+    .navbar-nav a{
+    	width: auto;
+    	font-size: 32px !important;
+    	line-height: 39px !important;
+    }
+	.nav-link.active{
+		border-bottom: solid 2px #F01111;
+	}
+	.nav-link{
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+	.nav-shadow{
+		border-bottom: solid 1px #e5e5e5;
+	    box-shadow: 3px 0 8px 0 rgba(34,34,34,0.2);
+	}
+
+	/*Banner*/
+	#banner .bg-banner {
+		padding: 96px 0 157px 0;
+	}
+	#banner .bg-banner img {
+		width: 148px;
+		margin-bottom: 34px;
+	}
+	#banner .bg-banner .sub-logo {
+		font-size: 50px !important;
+		line-height: 61px !important;
+		margin-bottom: 25px !important;
+	}
+	#banner .bg-banner h1 {
+		font-size: 96px !important;
+		line-height: 106px !important;
+		font-weight: bold;
+		margin-bottom: 54px;
+	}
+	#banner .bg-banner p {
+		font-size: 36px !important;
+		line-height: 46px !important;
+		margin-bottom: 42px;
+	}
+	#banner .bg-banner button {
+		font-size: 54px !important;
+		line-height: 64px !important;
+		font-weight: bold;
+		padding: 48px 141px;
+	}
+
+	/*Program Sekolah*/
+	#program-sekolah .container {
+		max-width: 75%;
+		padding: 60px 15px 82px;
+	}
+	#program-sekolah .title h2 {
+		font-size: 64px !important;
+		line-height: 74px !important;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+	#program-sekolah .title .line {
+		height: 10px;
+	}
+	#program-sekolah .content {
+		margin-top: 80px;
+	}
+	#program-sekolah .content .box {
+		padding: 27px 15px 50px;
+	}
+	#program-sekolah .content .box h3 {
+		font-size: 42px !important;
+		font-weight: bold;
+		line-height: 49p !importantx;
+		margin-bottom: 32px;
+	}
+	#program-sekolah .content .box .btn-program-sekolah {
+		font-size: 28px !important;
+		line-height: 38px !important;
+		font-weight: bold;
+		margin-top: 42px;
+	}
+
+	/*Prestasi*/
+	#prestasi .container {
+		max-width: 75%;
+		padding: 60px 15px 82px;
+	}
+	#prestasi .title h2 {
+		font-size: 64px !important;
+		line-height: 74px !important;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+	#prestasi .title .line {
+		height: 10px;
+	}
+	#prestasi .content {
+		margin-top: 80px;
+	}
+	#prestasi .content .box {
+		padding-bottom: 58px;
+	}
+	#prestasi .content .box img {
+		width: 100%;
+		height: 320px;
+		object-fit: contain;
+	}
+	#prestasi .content .box h3 {
+		font-size: 26px !important;
+		line-height: 36px !important;
+		overflow: hidden;
+		height: 155px;
+		margin-top: 16px;
+	}
+	#prestasi .content .box p {
+		font-size: 20px !important;
+		line-height: 30px !important;
+		height: 172px;
+		overflow: hidden;
+		margin-top: 16px;
+	}
+
+	/*Iklan*/
+	#iklan .poster img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	#iklan .content .bg-content {
+		padding: 80px;
+		height: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+	#iklan .content h2 {
+		font-size: 64px !important;
+		line-height: 74px !important;
+		margin-bottom: 75px;
+	}
+	#iklan .content p {
+		font-size: 36px !important;
+		line-height: 46px !important;		
+	}
+
+	/*Keungulan*/
+	#keunggulan .container {
+		max-width: 75%;
+		padding: 60px 15px 82px;
+	}
+	#keunggulan .title h2 {		
+		font-size: 64px !important;
+		line-height: 74px !important;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+	#keunggulan .title .line {		
+		height: 10px;
+		margin-bottom: 200px !important;
+	}
+	#keunggulan .content .bg-icon {
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+	}
+	#keunggulan .content .bg-icon img {
+		height: 150px;
+	}
+	#keunggulan .content h3 {
+		font-size: 34px !important;
+		line-height: 44px !important;
+		margin-top: 60px;
+		margin-bottom: 16px;
+	}
+	#keunggulan .content p {		
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+
+	/*Testimonial*/
+	#testimonial .container {
+		max-width: 75%;
+		padding: 60px 15px 82px;
+	}
+	#testimonial .title h2 {
+		font-size: 64px !important;
+		line-height: 74px !important;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+	#testimonial .title .line {
+		height: 10px;
+	}
+	#testimonial .content {
+		margin-top: 60px;
+	}
+	#testimonial .content img {
+		width: 100%;
+		height: 100%;
+		min-height: 512px;
+		object-fit: cover;
+	}
+	#testimonial .content p {
+		font-size: 38px !important;
+		line-height: 48px !important;
+	}
+	#testimonial .content h3 {
+		font-size: 42px !important;
+		line-height: 52px !important;
+	}
+
+	/*Update*/
+	#update .container {
+		max-width: 75%;
+		padding: 60px 15px 82px;
+	}
+	#update .content h2 {
+		font-size: 48px !important;
+		line-height: 58px !important;
+		margin-bottom: 25px;
+	}
+	#update .content p {
+		font-size: 34px !important;
+		line-height: 44px !important;
+		margin-bottom: 70px;
+	}
+	#update .bg-icon {
+		width: 150px;
+		height: 150px;
+		margin-right: 64px;
+		border-radius: 50%;
+	}
+	#update .content img {
+		width: 75px;
+		height: 75px;
+		object-fit: cover;
+	}
+}
+
+/*Bootstrap XL*/
+@media only screen and (min-width: 1980px) {}
+
+/*Bootstrap L*/
+@media only screen and (max-width: 1200px) {
+	/*Iklan*/
+	#iklan .content h2 {
+		font-size: 44px !important;
+	    line-height: 54px !important;
+	    margin-bottom: 54px;
+	}
+}
+
+/*Bootstrap MD*/
+@media only screen and (max-width: 992px) {
+	/*Banner*/
+	#banner .bg-banner .sub-logo {
+		font-size: 21px !important;
+		line-height: 31px !important;
+		margin-bottom: 24px !important;
+	}
+	#banner .bg-banner h1 {
+		font-size: 42px !important;
+		line-height: 52px !important;
+		margin-bottom: 24px;
+	}
+	#banner .bg-banner p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+	#banner .bg-banner button {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+
+	/*Program Sekolah*/
+	#program-sekolah .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#program-sekolah .content .box h3 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	#program-sekolah .content .box .btn-program-sekolah {
+		font-size: 14px !important;
+	}
+
+	/*Prestasi Sekolah*/
+	#prestasi .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#prestasi .content .box h3 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+		height: 105px;
+	}
+	#prestasi .content .box p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	/*Keunggulan*/
+	#keunggulan .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#keunggulan .content h3 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+
+	/*Testimonial*/
+	#testimonial .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#testimonial .content p {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+	#testimonial .content h3 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+
+	/*Update*/
+	#update .content h2 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	#update .bg-icon {
+		width: 60px;
+		height: 60px;
+		margin-right: 24px;
+	}
+	#update .content img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/*Bootstrap SM*/
+@media only screen and (max-width: 768px) {
+	/*Banner*/
+	#banner .bg-banner img {
+		width: 60px;
+	}
+	#banner .bg-banner .sub-logo {
+		font-size: 21px !important;
+		line-height: 31px !important;
+		margin-bottom: 16px !important;
+	}
+	#banner .bg-banner h1 {
+		font-size: 36px !important;
+		line-height: 46px !important;
+		margin-bottom: 16px;
+	}
+	#banner .bg-banner p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+	#banner .bg-banner button {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+
+	/*Program Sekolah*/
+	#program-sekolah .title h2 {
+		font-size: 28px !important;
+		line-height: 28px !important;
+	}
+	#program-sekolah .content .box h3 {
+		font-size: 21px !important;
+		line-height: 21px !important;
+	}
+	#program-sekolah .content .box .btn-program-sekolah {
+		font-size: 14px !important;
+		line-height: 26px !important;
+	}
+
+	/*Prestasi*/
+	#prestasi .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#prestasi .content .box h3 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	#prestasi .content .box p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	/*Keunggulan*/
+	#keunggulan .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#keunggulan .content h3 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	#keunggulan .content p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	/*Testimonial*/
+	#testimonial .title h2 {
+		font-size: 28px !important;
+		line-height: 38px !important;
+	}
+	#testimonial .content p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+	#testimonial .content h3 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+
+	/*Update*/
+	#update .content h2 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+	#update .content p {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+	#update .bg-icon {
+		width: 60px;
+		height: 60px;
+		margin-right: 24px;
+	}
+	#update .content img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+/*Bootstrap XS*/
+@media only screen and (max-width: 576px) {
+	/*Banner*/
+	#banner .bg-banner img {
+		width: 50px;
+	}
+	#banner .bg-banner .sub-logo {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+	#banner .bg-banner h1 {
+		font-size: 34px !important;
+		line-height: 44px !important;
+	}
+	#banner .bg-banner p {
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+	#banner .bg-banner button {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	/*Program Sekolah*/
+	#program-sekolah .content {
+		margin-top: 32px;
+	}
+	#program-sekolah .title h2 {
+		font-size: 24px !important;
+		line-height: 34px !important;
+	}
+	#program-sekolah .content .box h3 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+	#program-sekolah .content .box .btn-program-sekolah {
+		font-size: 14px !important;
+		line-height: 26px !important;
+	}
+
+	/*Prestasi*/
+	#prestasi .content {
+		margin-top: 32px;
+	}
+	#prestasi .content .p-mobile {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	#prestasi .title h2 {
+		font-size: 24px !important;
+		line-height: 34px !important;
+	}
+	#prestasi .content .box h3 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+		height: 80px;
+	}
+	#prestasi .content .box p {
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+
+	/*Iklan*/
+	#iklan .content h2 {
+		font-size: 34px !important;
+		line-height: 44px !important;
+		margin-bottom: 32px;
+	}
+	#iklan .content .bg-content {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	#iklan .content p {
+		font-size: 16px !important;
+		line-height: 28px !important;
+	}
+
+	/*Keunggulan*/
+	#keunggulan .title h2 {
+		font-size: 24px !important;
+		line-height: 34px !important;
+	}
+	#keunggulan .title .line {
+		margin-bottom: 60px !important;
+	}
+	#keunggulan .content h3 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+	#keunggulan .content p {
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+
+	/*Testimonial*/
+	#testimonial .title h2 {
+		font-size: 24px !important;
+		line-height: 34px !important;
+	}
+	#testimonial .content p {
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+	#testimonial .content h3 {
+		font-size: 16px !important;
+		line-height: 26px !important;
+	}
+
+	/*Update*/
+	#update .content h2 {
+		font-size: 18px !important;
+		line-height: 28px !important;
+	}
+	#update .content p {
+		font-size: 14px !important;
+		line-height: 24px !important;
+	}
+	#update .bg-icon {
+		width: 40px;
+		height: 40px;
+		margin-right: 16px;
+	}
+	#update .content img {
+		width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,396 @@
+/* width 1970px */
+@media only screen and (min-width: 1970px) {
+	/*Header*/
+    .header-box{
+    	height: 60px;
+    	width: 100%;
+    }
+    .logo{
+    	width: auto;
+    	height: 32px;
+    	object-fit: cover;
+    }
+    .navbar-nav a{
+    	width: auto;
+    	font-size: 32px;
+    	line-height: 39px;
+    }
+
+    /*Banner*/
+    .banner-header{
+    	width: 100%;
+    	height: 512px;
+    }
+    .logo-banner-header{
+    	width: 146px;
+    	height: 146px;
+    	object-fit: cover;
+    	margin-top: 40px;
+    }
+    .title-banner-header{
+    	font-size: 48px;
+    	line-height: 58px;
+    	margin-top: 15px;
+    	margin-bottom: 8px;
+    }
+    .subtitle-banner-header{
+    	font-size: 50px;
+    	line-height: 59px;
+    	font-weight: bold;
+    }
+    .btn-join-banner{
+    	width: 376px;
+    	height: 112px;
+    	border-radius: 14px;
+    	font-size: 38px;
+    	line-height: 45px;
+    	font-weight: bold;
+    	margin-top: 24px;
+    }
+
+    /*Tentang*/
+    .title-tentang{
+    	font-size: 50px;
+    	line-height: 59px;
+    	margin-top: 26px;
+    }
+    .subtitle-tentang{    	
+    	font-size: 50px;
+    	line-height: 59px;
+    	border-bottom: solid 2px #ce1212;
+    	width: max-content;
+    	margin: auto;
+    	padding-bottom: 14px;
+    }
+    .mockup-ipad-tentang{
+    	z-index: 2;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	width: 710px;
+    	height: 429px;
+    	margin-top: 32px;
+    }
+    .content-mockup-ipad-tentang{
+    	z-index: 1;
+    	width: 614px;
+    	height: 356px;
+    	object-fit: cover;
+    	margin-left: 48px;
+    	margin-top: 32px;
+    	border-radius: 5px;
+    }
+    .content-tentang{
+    	width: 80%;
+    	margin: 10px auto 16px auto;
+    	font-size: 26px;
+    	line-height: 30px;
+    }
+    .kelebihan-tentang{
+    	margin-top: 30px;
+    	width: 300px;
+    	height: 300px;
+    	object-fit: cover;
+    	margin-bottom: 60px;
+    }
+    .title-kelebihan-tentang{
+    	font-size: 34px;
+    	line-height: 41px;
+    }
+    .content-kelebihan-tentang{
+    	font-size: 28px;
+    	line-height: 34px;    	
+    }
+
+    /*Aktivitas*/
+    .aktivitas{
+    	padding: 94px 0;
+    }
+    .line-title-aktivitas{
+    	width: 7px;
+    	height: 36px;
+    	margin-right: 15px;
+    }
+    .title-aktivitas{
+    	margin: 0px;
+    	font-size: 30px;
+    	line-height: 36px;
+    }
+    .img-aktivitas{
+    	width: 100%;
+    	height: 350px;
+    	object-fit: cover;
+    	margin-top: 18px;
+    }
+    .box-content-aktivitas{
+    	padding: 35px 45px;
+    	margin: 0 15px;
+    }
+    .title-content-aktivitas{
+    	font-size: 30px;
+    	line-height: 36px;
+    	margin-bottom: 20px;
+    }
+    .text-content-aktivita{
+    	font-size: 20px;
+    	line-height: 23px;
+    }
+    .view-more-aktivitas{
+    	font-size: 30px;
+    	line-height: 36px;
+    	margin-top: 43px;
+    }
+
+    /*Berita Terbaru*/
+    .header-title-berita{
+    	height: 70px;
+    	padding: 0 14px;
+    }
+    .title-berita{
+    	margin-bottom: 0px;
+    	font-size: 30px;
+    	line-height: 36px;
+    }
+    .list-berita{
+    	height: 150px;
+    	padding: 20px 30px;
+    }
+    .dot-berita{
+    	width: 25px;
+    	height: 25px;
+    	border-radius: 50%;
+    }
+    .date-berita{
+    	line-height: 19px;
+    	margin-left: 17px;
+    }
+
+    /*Profile*/
+    .box-profile{
+    	padding: 50px 0;
+    }
+    /*.img-profile{
+    	width: 70%;
+    	height: 495px;
+    	object-fit: cover;
+    }*/
+    .box-content-profile{
+    	padding: 0 15px;
+    	margin: auto;
+    }
+    .list-content-profile{
+    	object-fit: cover;
+    	padding: 8px 0;
+    }
+    .icon-content-profile{
+    	height: 24px;
+    	width: 24px;
+    }
+    .text-content-profile{
+    	margin-bottom: 0px;
+    	margin-left: 16px;
+    }
+
+    /*Bagian bawah*/
+    .box-bottom{
+    	height: 666px;
+    	margin-bottom: 50px;
+    }
+    .box-footer{
+    	height: 124px;
+	}
+	
+	/* Prestasi Kami */
+	.line-title-prestasi-kami{
+		width: 26px;
+		height: 77px;
+		background: #CE1212;
+	}
+	.title-prestasi-kami{
+		font-family: 'Product Sans';
+		margin: 0 0 0 16px;
+		font-size: 40px;
+		line-height: 49px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #000000;
+	}
+	.img-list-prestasi-kami{
+		width: 100%;
+		height: 399px;
+		object-fit: cover;
+	}
+	.title-list-prestasi-kami{
+		font-size: 40px;
+		line-height: 47px;
+	}
+	.publish-list-prestasi-kami{
+		font-size: 24px;
+		line-height: 28px;
+
+	}
+	.content-list-prestasi-kami{
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.readmore-list-prestasi-kami{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.nav-dot-prestasi-kami{
+		font-size: 40px;
+		line-height: 49px;
+		/* identical to box height */
+	}
+	.nav-until-prestasi-kami{
+		font-size: 16px;
+	}
+	.nav-next-prestasi-kami{
+		font-size: 40px;
+		line-height: 49px;
+		/* identical to box height */
+	}
+
+	/* Deskripsi Prestasi Kami */
+	.title-desc-prestasi-kami{
+		font-size: 48px;
+		line-height: 58px;
+	}
+	.publish-desc-prestasi-kami{
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.content-desc-prestasi-kami{
+		font-size: 36px;
+		line-height: 42px;
+	}
+	.img-desc-prestasi-kami{
+		height: 615px;
+		width: 100%;
+		object-fit: cover;
+	}
+	.ketimg-desc-prestasi-kami{
+		font-size: 28px;
+		line-height: 33px;
+		/* identical to box height */
+
+	}
+	.content-desc-prestasi-kami{
+		font-size: 36px;
+		line-height: 42px;
+	}
+}
+/* width 1970px */
+
+@media only screen and (max-width: 767px) {
+	.title-banner-header{
+		font-size: 32px;
+	}
+	.subtitle-banner-header{
+		font-size: 34px;
+	}
+	.btn-join-banner{
+		font-size: 21px;
+	}
+	.title-tentang{
+    	font-size: 32px;
+    }
+    .subtitle-tentang{    	
+    	font-size: 34px;
+    }
+
+	.content-mockup-ipad-tentang{
+		width: 440px;
+		height: 252px;
+		margin-top: 88px;
+	}
+	.img-profile{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.title-banner-header{
+		font-size: 28px;
+	}
+	.subtitle-banner-header{
+		font-size: 30px;
+	}
+	.btn-join-banner{
+		font-size: 18px;
+	}
+	.title-tentang{
+    	font-size: 28px;
+    }
+    .subtitle-tentang{    	
+    	font-size: 30px;
+    }
+    .title-kelebihan-tentang{
+    	font-size: 21px;
+    }
+
+    .mockup-ipad-tentang{
+    	background-image: none !important;
+    }
+    .content-mockup-ipad-tentang{
+    	width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+	.title-banner-header{
+		font-size: 21px;
+	}
+	.subtitle-banner-header{
+		font-size: 24px;
+	}
+	.btn-join-banner{
+		font-size: 16px;
+		padding: 8px 60px;
+	}
+	.title-tentang{
+    	font-size: 21px;
+    }
+    .subtitle-tentang{    	
+    	font-size: 24px;
+    }
+    .title-kelebihan-tentang{
+    	font-size: 18px;
+    }
+    .line-title-aktivitas{
+    	font-size: 18px;
+    }
+    .title-content-aktivitas{
+    	font-size: 18px;
+    }
+    .view-more-aktivitas{
+    	font-size: 14px;
+    }
+    .title-berita{
+    	font-size: 18px;
+    }
+    .content-tentang{
+    	font-size: 14px;
+    }
+    .content-kelebihan-tentang{
+    	font-size: 16px;
+    }
+    .text-content-aktivita{
+    	font-size: 14px;
+    }
+    .date-berita{
+    	font-size: 14px;
+    }
+    .text-content-profile{
+    	font-size: 14px;
+    }
+
+    .icon-content-profile{
+    	width: 18px;
+    	height: 18px;
+    }
+	.logo-banner-header{
+		width: 80px;
+		height: 80px;
+	}
+}

@@ -1,0 +1,357 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Header*/
+.header-box{
+	height: 32px;
+	width: 100%;
+	background-color: #ce1212;
+}
+.logo{
+	width: auto;
+	height: 32px;
+	object-fit: cover;
+}
+.navbar-nav a{
+	font-family: 'Product Sans';
+	width: auto;
+	color: #807E7E !important;
+	font-size: 16px;
+	line-height: 26px;
+	word-spacing: .2pt;
+	font-weight: 600;
+}
+.nav-link.active{
+	color: #F01111 !important;
+	border-bottom: solid 2px #F01111;
+}
+.nav-link{
+	padding-left: 16px !important;
+	padding-right: 16px !important;
+}
+.nav-shadow{
+	border-bottom: solid 1px #e5e5e5;
+    box-shadow: 3px 0 8px 0 rgba(34,34,34,0.2);
+}
+
+/*Banner*/
+#banner .bg-banner {
+	padding: 96px 0 157px 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#banner .bg-banner img {
+	width: 90px;
+	margin-bottom: 16px;
+}
+#banner .bg-banner .sub-logo {
+	font-family: 'Product Sans';
+	font-size: 24px;
+	line-height: 34px;
+	color: #FFFFFF;
+	margin-bottom: 36px !important;
+}
+#banner .bg-banner h1 {
+	font-family: 'Roboto';
+	font-size: 64px;
+	line-height: 74px;
+	font-weight: bold;
+	color: #DF0202;
+	margin-bottom: 36px;
+}
+#banner .bg-banner h1 span {
+	color: #FFFFFF;
+}
+#banner .bg-banner p {
+	font-family: 'Product Sans';
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin-bottom: 42px !important;
+}
+#banner .bg-banner button {
+	font-family: 'Roboto';
+	font-size: 21px;
+	line-height: 31px;
+	font-weight: bold;
+	background-color: #CE1212;
+	border-color: #CE1212;
+	padding: 12px 24px;
+}
+#banner .bg-banner button:hover {
+	border-color: #CE1212;
+}
+
+/*Program Sekolah*/
+#program-sekolah .container {
+	padding: 60px 15px 82px;
+}
+#program-sekolah .title h2 {
+	font-family: 'Product Sans';
+	font-size: 34px;
+	line-height: 44px;
+	color: rgba(0, 0, 0, 0.75);
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+#program-sekolah .title .line {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 10px;
+}
+#program-sekolah .content {
+	margin-top: 80px;
+}
+#program-sekolah .content .p-8 {
+	padding: 0 8px;
+}
+#program-sekolah .content .box {
+	padding: 27px 15px 50px;
+}
+#program-sekolah .content .box.box-program {
+	background-color: #E1574E;
+}
+#program-sekolah .content .box.box-robotik {
+	background-color: #F2A64E;
+}
+#program-sekolah .content .box.box-vr {
+	background-color: #49D292;
+}
+#program-sekolah .content .box h3 {
+	font-family: 'Roboto';
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	color: #FFFFFF;
+	margin-bottom: 8px;
+}
+#program-sekolah .content .box .btn-program-sekolah {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	margin-top: 42px;
+}
+#program-sekolah .content .box .btn-program-sekolah:hover {
+	background-color: #FFFFFF !important;
+}
+#program-sekolah .content .box.box-program .btn-program-sekolah:hover {
+	color: #e1574e !important;
+}
+#program-sekolah .content .box.box-robotik .btn-program-sekolah:hover {
+	color: #f2a64e !important;
+}
+#program-sekolah .content .box.box-vr .btn-program-sekolah:hover {
+	color: #49d292 !important;
+}
+
+/*Prestasi*/
+#prestasi {
+	background-color: #E1574E;
+}
+#prestasi .container {
+	padding: 60px 15px 82px;
+}
+#prestasi .title h2 {
+	font-family: 'Product Sans';
+	font-size: 34px;
+	line-height: 44px;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+#prestasi .title .line {
+	background-color: #FFFFFF;
+	height: 10px;
+}
+#prestasi .content {
+	margin-top: 80px;
+}
+#prestasi .content .box {
+	padding-bottom: 16px;
+}
+#prestasi .content .box.box-dark {
+	background-color: rgba(196, 196, 196, 0.2);
+}
+#prestasi .content .box.box-light {
+	background-color: rgba(196, 196, 196, 0.45);
+}
+#prestasi .content .box img {
+	width: 100%;
+	height: 320px;
+	object-fit: contain;
+	background: #ffffff;
+}
+#prestasi .content .box h3 {
+	font-family: 'Product Sans';
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 31px;
+	overflow: hidden;
+	height: 125px;
+	margin-top: 16px;
+}
+#prestasi .content .box p {
+	font-family: 'Product Sans';
+	color: #3D3D3D;
+	font-size: 16px;
+	line-height: 26px;
+	height: 180px;
+	overflow: hidden;
+	margin-top: 16px;
+}
+
+/*Iklan*/
+#iklan .poster img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#iklan .content .bg-content {
+	padding: 80px;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#iklan .content h2 {
+	font-family: 'Product Sans';
+	color: #E1574E;
+	font-size: 64px;
+	line-height: 74px;
+	margin-bottom: 75px;
+}
+#iklan .content h2 span {
+	color: #ffffff;
+}
+#iklan .content p {
+	font-family: 'Product Sans';
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+/*Keungulan*/
+#keunggulan .container {
+	padding: 60px 15px 82px;
+}
+#keunggulan .title h2 {
+	font-family: 'Product Sans';
+	font-size: 34px;
+	line-height: 44px;
+	color: rgba(0, 0, 0, 0.75);
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+#keunggulan .title .line {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 10px;
+	margin-bottom: 120px !important;
+}
+#keunggulan .content .bg-icon {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #E1574E;
+}
+#keunggulan .content .bg-icon img {
+	height: 60px;
+}
+#keunggulan .content h3 {
+	font-family: 'Product Sans';
+	font-size: 24px;
+	line-height: 34px;
+	margin-top: 36px;
+	margin-bottom: 16px;
+}
+#keunggulan .content p {
+	font-family: 'Product Sans';
+	font-size: 16px;
+	line-height: 26px;
+	color: #878787;
+}
+
+/*Testimonial*/
+#testimonial {
+	background-color: rgba(242, 166, 78, 0.2);
+}
+#testimonial .container {
+	padding: 60px 15px 82px;
+}
+#testimonial .title h2 {
+	font-family: 'Product Sans';
+	font-size: 34px;
+	line-height: 44px;
+	color: rgba(0, 0, 0, 0.75);
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+#testimonial .title .line {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 10px;
+}
+#testimonial .content {
+	margin-top: 60px;
+}
+#testimonial .content img {
+	width: 100%;
+	height: 100%;
+	min-height: 512px;
+	object-fit: cover;
+}
+#testimonial .content p {
+	font-family: 'Product Sans';
+	font-size: 21px;
+	line-height: 31px;
+	color: #5A5A5A;
+}
+#testimonial .content h3 {
+	font-family: 'Product Sans';
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+}
+
+/*Update*/
+#update {
+	background-color: #E1574E;
+}
+#update .container {
+	padding: 60px 15px;
+}
+#update .content h2 {
+	font-family: 'Product Sans';
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+#update .content p {
+	font-family: 'Product Sans';
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 36px;
+}
+#update .bg-icon {
+	width: 80px;
+	height: 80px;
+	margin-right: 36px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+#update .content img {
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+}
